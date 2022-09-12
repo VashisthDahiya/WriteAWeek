@@ -1,5 +1,5 @@
 body{
-    background-image: url(background.jpg);
+    background-image: url(images/background.jpg);
     color: white;
 }
 
@@ -13,7 +13,13 @@ body{
     padding: 2% 10% 2% 10%;
 }
 
-#button, #exampleModal2{
+#button{
+    transition: transform 1.2s;
+    text-align: center;
+    width: 100%;
+}
+
+#exampleModal2{
     text-align: center;
     width: 100%;
 }
@@ -22,8 +28,15 @@ a:link, a:active, a:hover, a:focus, a:visited{
     color: white;
 }
 
+.article{
+    margin: auto 0px auto 0px;
+}
+
 .post{
-    margin: 5% 2% 5% 2%;
+    padding: 1%;
+    width: 47%;
+    transition: transform .2s;
+    margin: 5% 0% 5% 1%;
 }
 
 #exampleModalLabel{
@@ -32,4 +45,12 @@ a:link, a:active, a:hover, a:focus, a:visited{
 
 td{
     padding: 2% 2% 2% 2%;
+}
+
+.post:hover{
+    transform: scale(1.1);
+}
+
+#footer{
+    text-align: center;
 }
