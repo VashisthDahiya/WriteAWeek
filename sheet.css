@@ -1,5 +1,5 @@
 body{
-    background-image: url(images/background.jpg);
+    background-image: url(/background.jpg);
     color: white;
 }
 
@@ -36,7 +36,7 @@ a:link, a:active, a:hover, a:focus, a:visited{
     padding: 1%;
     width: 47%;
     transition: transform .2s;
-    margin: 5% 0% 5% 1%;
+    margin: 1% 0% 0% 1%;
 }
 
 #exampleModalLabel{
@@ -53,4 +53,11 @@ td{
 
 #footer{
     text-align: center;
+}
+
+.thumbnail{
+    position: absolute;
+    right: 10px;
+    width: 30%;
+    aspect-ratio: 1/1;
 }
